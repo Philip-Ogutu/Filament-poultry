@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.filamentpoultry.MainActivity">
+
+    <ImageView
+        android:id="@+id/eggs"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eggs" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eggs"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="About"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/statement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about"
+        android:paddingLeft="16dp"
+        android:text="We do sell and deliver healthy eggs at your doorstep from both the kienyeji and other breeds. Press the ORDER NOW button for more info "
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statement"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/call" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/call"
+        android:layout_below="@id/statement"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="50dp"
+        android:text="+2542897645 | +25472455875 "
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/call"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/location3" />
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/location"
+        android:layout_below="@id/contact"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="50dp"
+        android:text="Kasarani-Icipe Rd "
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/location"
+        android:layout_below="@id/area"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Open 24/7 "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/order_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="ORDER NOW" />
+
+
+</RelativeLayout>
