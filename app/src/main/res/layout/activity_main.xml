@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/eggs"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="150dp"
         android:scaleType="centerCrop"
         android:src="@drawable/eggs" />
 
@@ -23,7 +23,7 @@
         android:text="About"
         android:textAllCaps="true"
         android:textColor="@android:color/black"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -32,18 +32,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/about"
         android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:text="We do sell and deliver healthy eggs at your doorstep from both the kienyeji and other breeds. Press the ORDER NOW button for more info "
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 
     <ImageView
         android:id="@+id/call"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/statement"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/call" />
+        android:src="@drawable/ic_call_black_24dp" />
 
     <TextView
         android:id="@+id/contact"
@@ -59,12 +60,12 @@
 
     <ImageView
         android:id="@+id/location"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/call"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/location3" />
+        android:src="@drawable/ic_location_on_black_24dp" />
 
     <TextView
         android:id="@+id/area"
@@ -95,7 +96,6 @@
         android:id="@+id/order_now"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="ORDER NOW" />
